@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Kotlin
-nav_order: 2
+title: Coroutines
+parent: Kotlin
+nav_order: 10
 ---
 
 # Coroutines
+{: .no_toc }
 
 Questi sono appunti personali presi dai numerosi articoli che si trovano in rete. Tento di riassumere e mettere in ordine alcuni concetti partendo dagli articoli più autorevoli:
 
