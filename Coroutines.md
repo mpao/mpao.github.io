@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # Coroutines
-{: .no_toc }
 
 Questi sono appunti personali presi dai numerosi articoli che si trovano in rete. Tento di riassumere e mettere in ordine alcuni concetti partendo dagli articoli più autorevoli:
 
