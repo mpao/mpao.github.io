@@ -24,15 +24,17 @@ apt-get update
 apt-get install vim
 vim webapps/manager/META-INF/context.xml
 ```
+5. file `context.xml`
 ```html
 <Context antiResourceLocking="false" privileged="true" >
   <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow=".*" />
 </Context>
 ```
-5. crea e configura un utente per la `GUI`
+6. crea e configura un utente per la `GUI`
 ```bash
 vim conf/tomcat-users.xml
 ```
+7. file `tomcat-user.xml`
 ```html
 <role rolename="manager-gui"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
