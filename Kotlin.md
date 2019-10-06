@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Kotlin
-nav_order: 2
+nav_order: 20
 has_children: true
-permalink: /Kotlin
+permalink: /kotlin
 ---
 
-# Appunti su Kotlin
+# Appunti Kotlin
