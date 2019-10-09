@@ -1,3 +1,13 @@
+---
+layout: default
+title: Collections Framework
+parent: Java
+nav_order: 90
+---
+
+# Collections Framework
+{: .no_toc }
+
 ###### Appunti tratti da "Java, The Complete Reference, Ninth Edition" di Herbert Schildt. ######
 
 # 1. Caratteristiche Principali
