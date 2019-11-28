@@ -18,11 +18,14 @@ Questi appunti derivano dall'articolo su Kousenit.org [Fibonacci in Kotlin](http
 
 La **successione di Fibonacci** probabilemente è la più conosciuta, ma in ogni caso ecco la definizione da [Wikipedia](https://it.wikipedia.org/wiki/Successione_di_Fibonacci)
 
->La **successione di Fibonacci** (detta anche **successione aurea**), indicata con ![F_{n}](https://wikimedia.org/api/rest_v1/media/math/render/svg/76cdf519c21deec43f984815e57e15d2dd3575d7) o con ![Fib(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/26e544e72ba25d203f7ceea1c5783d6a35b49311), in matematica indica una successione di numeri interi in cui ciascun numero è la somma dei due precedenti, eccetto i primi due che sono, per definizione: ![{\displaystyle F_{0}=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/58ebe8b2d5551fb272cd4258940fe1e492592d02) e ![F_{1}=1](https://wikimedia.org/api/rest_v1/media/math/render/svg/c374ba08c140de90c6cbb4c9b9fcd26e3f99ef56). 
+>La **successione di Fibonacci** (detta anche **successione aurea**), indicata con ![F_{n}](https://wikimedia.org/api/rest_v1/media/math/render/svg/76cdf519c21deec43f984815e57e15d2dd3575d7) o con ![Fib(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/26e544e72ba25d203f7ceea1c5783d6a35b49311), in matematica indica una successione di numeri interi in cui ciascun numero è la somma dei due precedenti, eccetto i primi due che sono, per definizione: ![{\displaystyle F_{0}=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/58ebe8b2d5551fb272cd4258940fe1e492592d02) e ![F_{1}=1](https://wikimedia.org/api/rest_v1/media/math/render/svg/c374ba08c140de90c6cbb4c9b9fcd26e3f99ef56).
+
 >Questa successione è definita ricorsivamente secondo la seguente regola:
 >
 >![ F_{0}=0](https://wikimedia.org/api/rest_v1/media/math/render/svg/50f0540e5bf18821f31581e56a08d6bb276f1041)
+
 >![F_{1}=1](https://wikimedia.org/api/rest_v1/media/math/render/svg/1d2b4efdae465c4699bd64aaf19b99dcb26eb4a6)
+
 >![F_{n}=F_{{n-1}}+F_{{n-2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4fa6d281e7a54e08aeffeef7458ddc0884333686) (per ogni n>1)
 >
 >Gli elementi ![F_{n}](https://wikimedia.org/api/rest_v1/media/math/render/svg/76cdf519c21deec43f984815e57e15d2dd3575d7) sono anche detti numeri di Fibonacci. I primi termini della successione di Fibonacci, che prende il nome dal matematico pisano del XIII secolo Leonardo Fibonacci, sono: *0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...*
