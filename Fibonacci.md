@@ -71,7 +71,7 @@ public static final int fibonacci(int n) {
 
 
 
- ### Tail Call
+### Tail Call
 
 Cominciamo dalla definizione, sempre da [Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
 
